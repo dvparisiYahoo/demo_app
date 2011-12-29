@@ -12,7 +12,10 @@ DemoApp::Application.configure do
   config.serve_static_assets = false
 
   # Compress JavaScripts and CSS
-  config.assets.compress = true
+  # config.assets.compress = true
+  
+  # Don't Compress JavaScripts and CSS because of error msg
+  config.assets.compress = false
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   # config.assets.compile = false
