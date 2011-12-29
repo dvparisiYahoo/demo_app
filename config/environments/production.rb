@@ -18,10 +18,10 @@ DemoApp::Application.configure do
   config.assets.compress = false
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  # config.assets.compile = false
+  config.assets.compile = false
 
   # Have to fallback to assets pipeline if a precompiled asset is missed because of error msg
-  config.assets.compile = true
+  # config.assets.compile = true
 
   # Generate digests for assets URLs
   config.assets.digest = true
